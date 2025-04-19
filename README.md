@@ -1,10 +1,15 @@
 SAL_BW_Project_2
+
 📌 Overview
+
 This project demonstrates the end-to-end process of extracting meaningful insights from a website using web scraping, performing SQL-based data exploration, and visualizing insights using Python-based Exploratory Data Analysis (EDA).
+
 We use the publicly available website http://quotes.toscrape.com/ to extract quotes, authors, and associated tags. The data is stored in a structured CSV format, queried using SQL, and analyzed using Pandas, Matplotlib, and Seaborn.
 
 How to Run the Project:
+
 🛠️ Part 1: Web Scraping (Using Python)
+
 Run web_scraper.py to scrape data. 
 We scraped the following information from all pages of the website:
 Author of each quote
